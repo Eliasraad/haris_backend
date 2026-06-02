@@ -17,10 +17,6 @@ Back-End تعليمي كامل لمشروع "حارس" مبني باستخدام
 
 ## هيكل المشروع
 
-
-
-
-
 ```text
 app/
   main.py
@@ -49,10 +45,6 @@ uvicorn app.main:app --reload
 
 ```text
 http://127.0.0.1:8000/docs
-
-
-
-
 ```
 
 Health check:
@@ -109,10 +101,6 @@ GET /health
 
 ```text
 POST /simulate/ssh-bruteforce
-
-
-
-
 ```
 
 2. تشغيل الكشف:
